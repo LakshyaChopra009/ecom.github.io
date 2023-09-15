@@ -1,0 +1,38 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nova+Oval&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Google fonts import */
+
+
+
+/* Default text Set's */
+
+.def_logo {
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.def_normal {
+    font-family: 'Roboto';
+}
+ 
+
+/* Default text Set's */
+
+
+
+/* Main navigation bar */
+
+.main-navbar {
+    padding-top: 1.3rem;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid gray;
+}
+
+
+/* Main navigation bar */

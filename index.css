@@ -1,5 +1,6 @@
 .search-bar {
-  margin-left: 320px;
+  margin-left: auto;
+  border: 1.2px solid #0f5ce0;
 }
 .navbar-brand {
   margin-left: 20px;
@@ -7,6 +8,30 @@
   font-weight: 500;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.my-navbar {
+  text-align: center;
+  justify-self: center;
+  border-bottom: 0.3px solid rgb(162, 161, 161);
+  box-shadow: 0px 0.3px 2.5px 0.5px #504e4e56;
+}
+.white {
+  color: white;
+}
+.silder-hold {
+  margin-top: 12.8vh;
+}
+.sear-box {
+  border-radius: 0px;
+  width: 350px !important;
+}
+.my-btn {
+  background-color: #0f5ce0;
+  border-radius: 0px;
+}
+.space {
+  padding-left: 15px;
+}
+
 .fa-user {
   margin-left: 50px;
 }
@@ -15,6 +40,7 @@
 }
 .sign {
   margin-left: 20px;
+  margin-top: 15px;
 }
 
 /* product css */
@@ -26,20 +52,22 @@
 }
 
 .prodt_img {
-  background-color: lightgray;
-  padding: 50px;
+  background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(189,189,189,1) 68%, rgba(189,189,189,1) 100%);
+  padding: 59px;
   border-radius: 50%;
-  box-shadow: 1px 1px 2px 2px rgba(107, 103, 103, 0.219);
+  transition: 100ms linear;
 }
 .prodt_img>img {
-    height: 155px;
-}
-.prodt_img>img:hover {
-    height: 165px;
+    height: 145px;
     transition: 100ms linear;
 }
-.prodt_img>img:hover .prodt_img {
-    padding: 40px;
+.prodt_img:hover .animation{
+    height: 155px;
+    transition: 100ms linear;
+}
+.prodt_img:hover {
+    padding: 54px;
+    transition: 100ms linear;
 }
 .prodt_info {
     margin-top: 1rem;
@@ -50,7 +78,55 @@
 }
 .prodt_head:hover {
     color: rgb(120, 120, 240);
+    cursor: default;
 }
 .prodt_count {
     margin-bottom: 0px;
+}
+
+.prod-holder-main {
+  width: 90%;
+}
+
+/* feature */
+
+.feature {
+  width: 90%;
+  margin-top: 3.5rem;
+}
+
+.bigsize-icon {
+  font-size: xx-large;
+  padding-right: 15px;
+  color: #ff4f4ff2;
+}
+.back-of-feature {
+  background-color: #d8d8d86f;
+}
+
+/* trending section css */
+.trending {
+  margin-top: 4.5rem;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.heading {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.other-tabs {
+  margin-left: auto;
+}
+.tred-tabs {
+  color: black;
+  font-size: x-large;
+  padding-left: 15px;
+  font-weight: 500;
+}
+.tred-tabs:hover {
+  cursor: pointer;
+  color: #8eb1f8;
+  text-decoration: none;
 }
