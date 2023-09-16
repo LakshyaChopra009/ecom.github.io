@@ -6,7 +6,7 @@
   margin-left: 20px;
   font-size: 2rem;
   font-weight: 500;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: cursive;
 }
 .my-navbar {
   text-align: center;
@@ -91,7 +91,7 @@
 /* feature */
 
 .feature {
-  width: 90%;
+  width: 95%;
   margin-top: 3.5rem;
 }
 
